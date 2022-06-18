@@ -30,7 +30,7 @@ public class GroceryListApplication {
             System.out.println("Category: " + grocery.getCategory());
             System.out.println("Item: " + grocery.getName());
             System.out.println("Quantity: " + grocery.getQuantity());
-            System.out.println("");
+            System.out.println();
         } // end loop through grocery list
     }
 
