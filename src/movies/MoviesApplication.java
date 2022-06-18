@@ -36,7 +36,13 @@ public class MoviesApplication {
             System.out.println("4 - view movies in the horror category");
             System.out.println("5 - view movies in the scifi category");
             System.out.println("6 - add a movie to the list");
-            userChoice = input.getInt("Enter your choice: ");
+
+//
+//            need to play with code to resolve error on line below-- error of .getInput is not being used... figure out why is getInput being used?
+//            userChoice = input.getInt("Enter your choice: ");
+//
+//
+
             switch(userChoice){
                 case 0:
                     break;
@@ -58,7 +64,13 @@ public class MoviesApplication {
                     getAllMoviesFromCategory("scifi", movies);
                     break;
                 case 6:
-                    input.getGhost();
+
+//
+//                    need to resolve error code for line below... cannot resolve 'getGhost' in 'Input'
+//                    why is this being used?
+//                    input.getGhost();
+//
+
                     String nameOfMovieToAdd = input.getString("Enter the name of the movie you want to add: ");
                     String categoryOfMovieToAdd = input.getString("Enter the category of the movie you want to add:");
                     Movie newMovie = new Movie(nameOfMovieToAdd, categoryOfMovieToAdd);
