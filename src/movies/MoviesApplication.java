@@ -10,7 +10,9 @@ public class MoviesApplication {
             if (category.equals(movie.getCategory())){
                 System.out.printf("%s -- %s%n", movie.getName(), movie.getCategory());
             }
+
         }
+
     }
 
     public static Movie[] addMovie(Movie newMovie, Movie[] movies){
